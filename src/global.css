@@ -1,5 +1,15 @@
+:root {
+  --gray-200: #E2E8F0;
+  --gray-600: #475569;
+  --gray-800: #1E293B;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  }
+
+  body, input {
+    font-family: 'Titillium Web', sans-serif;
   }
