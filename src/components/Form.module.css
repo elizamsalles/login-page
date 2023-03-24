@@ -1,7 +1,20 @@
+.page {
+    display: flex;
+    
+    
+}
+
+.bg {
+    object-fit: cover;
+    margin-top: -94px;
+    height: 100vh;
+    width: 100vw;
+}
+
 .container {
     width: 24rem;
     height: 30.18rem;
-    margin: 114px 944px 209px 112px;
+    margin: 90px 320px 10px 112px;
 }
 
 .header h1 {
@@ -78,6 +91,7 @@ button {
     font-weight: 700;
     line-height: 24px;
     color: white;
+    font-size: 0.85rem;
 
     transition: 0.1s;
 
@@ -87,6 +101,24 @@ button:hover {
     background-color: var(--purple-400);
 }
 
+.footer {
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--gray-600);
+    margin-top: 32px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: var(--purple-500);
+    font-weight: 700;
+
+    transition: 0.1s;
+}
+
+.footer a:hover {
+    color: var(--purple-400);
+}
 
 /*icon*/
 /* .inputWrapper {
