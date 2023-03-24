@@ -1,5 +1,5 @@
 import styles from './Form.module.css'
-import { EyeSlash } from "@phosphor-icons/react"
+import { Eye, EyeSlash } from "@phosphor-icons/react"
 
 
 
@@ -19,18 +19,21 @@ export function Form(){
                         <label>E-mail</label>
                     </div>
                     <div>
-                        <input type="email" placeholder='Digite seu e-mail' />
+                        <input type="email" name="email" placeholder='Digite seu e-mail' />
                     </div>
                     
 
-                    <div className={styles.Password}>
+                    <div className={styles.password}>
                         <label>Senha</label>
                         <a href="https://#">Esqueceu a senha?</a>
                     </div>
-                    <div>
+                    <div /*className={styles.inputWrapper}*/>
                         <input type="password" placeholder='Digite sua senha' />
-                        <EyeSlash /> 
-                    </div>  
+                        
+                    </div> 
+                    {/* <div className={styles.icon}>
+                        <EyeSlash size={20} /> <Eye size={20}/>
+                    </div>  */}
                     
 
                     <button>Entrar</button>
