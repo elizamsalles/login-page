@@ -3,13 +3,21 @@
   --gray-600: #475569;
   --gray-800: #1E293B;
 
+  --purple-400: #9F67FF;
   --purple-500: #7C3AED;
+}
+
+:focus {
+  outline: transparent;
+ 
+  
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
   }
 
   body, input {
