@@ -1,3 +1,4 @@
+import background from '../assets/bg.jpg'
 import styles from "./Form.module.css";
 // import { Eye, EyeSlash } from "@phosphor-icons/react"
 
@@ -47,7 +48,7 @@ export function Form() {
             </div>
         </div>
 
-        <img className={styles.bg} src="src\assets\bg.jpg" alt="imagem de background"/>
+        <img className={styles.bg} src={background} alt="imagem de background"/>
 
     </div>
   );
